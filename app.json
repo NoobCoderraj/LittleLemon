@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "littleLemon",
+    "slug": "littleLemon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rajgithub.littleLemon"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyAfyocWoRSJFgROXHVJ0a2YZ0lBRSvoZBE",
+        "authDomain": "littlelemon-7e1c7.firebaseapp.com",
+        "databaseURL": "https://littlelemon-7e1c7-default-rtdb.firebaseio.com",
+        "projectId": "littlelemon-7e1c7",
+        "storageBucket": "littlelemon-7e1c7.appspot.com",
+        "messagingSenderId": "101075374035",
+        "appId": "1:101075374035:web:75df6fc0e21b87eab4e926",
+        "measurementId": "G-6XEQ8Q0Q9Y"
+      },
+      "eas": {
+        "projectId": "218a8023-5b98-45a6-808e-535a90b8ee3b"
+      }
+    }
+  }
+}
